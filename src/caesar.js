@@ -17,7 +17,7 @@ const caesarModule = (function () {
       // decodes the message by going backwards
       shift = 0 - shift; 
     }
-    const secret = chars.map((letter) => {
+    const message = chars.map((letter) => {
       let ascii = letter.charCodeAt(0) - 97; 
       if (ascii < 0 || ascii > 26) {
         // returns any nonalphabetic symbols
@@ -31,7 +31,7 @@ const caesarModule = (function () {
       return String.fromCharCode(ascii);
     });
 
-    return secret.join("");
+    return message.join("");
   }
 
   return {
