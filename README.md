@@ -1,9 +1,9 @@
 # Project_Decoder_Ring_1
 
--A program which takes in a message from the user then it uses different methods to encode and decode the message.
--Used Caesar Shift,Polybius Square and Substitution Cypher encoding.
--Decoded as well as encoded messages put into the program.
--Built with: JavaScript, HTML.
+- A program which takes in a message from the user then it uses different methods to encode and decode the message.
+- Used Caesar Shift,Polybius Square and Substitution Cypher encoding.
+- Decoded as well as encoded messages put into the program.
+- Built with: JavaScript, HTML.
 
 
 This project pushed and tested my ability to be able to write algorithims as well as my ability to write my own tests for this program
